@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberTips</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="column">
+            <div class="template" onclick="openCard('Template 1')"><img src="https://via.placeholder.com/150"
+                    alt="Template 1"></div>
+            <div class="template" onclick="openCard('Template 2')"><img src="https://via.placeholder.com/150"
+                    alt="Template 2"></div>
+            <div class="template" onclick="openCard('Template 3')"><img src="https://via.placeholder.com/150"
+                    alt="Template 3"></div>
+            <div class="template" onclick="openCard('Template 4')"><img src="https://via.placeholder.com/150"
+                    alt="Template 4"></div>
+            <div class="template" onclick="openCard('Template 5')"><img src="https://via.placeholder.com/150"
+                    alt="Template 5"></div>
+        </div>
+        <div class="column">
+            <div class="template" onclick="openCard('Template 6')"><img src="https://via.placeholder.com/150"
+                    alt="Template 6"></div>
+            <div class="template" onclick="openCard('Template 7')"><img src="https://via.placeholder.com/150"
+                    alt="Template 7"></div>
+            <div class="template" onclick="openCard('Template 8')"><img src="https://via.placeholder.com/150"
+                    alt="Template 8"></div>
+            <div class="template" onclick="openCard('Template 9')"><img src="https://via.placeholder.com/150"
+                    alt="Template 9"></div>
+            <div class="template" onclick="openCard('Template 10')"><img src="https://via.placeholder.com/150"
+                    alt="Template 10"></div>
+        </div>
+    </div>
+
+    <div id="card" class="card">
+        <span class="close-btn" onclick="closeCard()">×</span>
+        <p id="card-content"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
