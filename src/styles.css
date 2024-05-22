@@ -10,12 +10,43 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     margin: 10px;
+}
+
+#left-center {
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+#right-center {
+    margin-left: auto;
+    margin-right: 25%;
+}
+
+#left-middle {
+    margin-left: 15%;
+    margin-right: auto;
+}
+
+#right-middle {
+    margin-left: auto;
+    margin-right: 15%;
+}
+
+#left-tip {
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+#right-tip {
+    margin-left: auto;
+    margin-right: 5%;
 }
 
 .template {
