@@ -59,10 +59,10 @@ body {
 }
 
 .template img {
-    width: 103px;
-    height: 103px;
+    width: 100.5px;
+    height: 100.5px;
     object-fit: cover;
-    border: 2px solid #ccc;
+    border: 3.5px outset #ccc;
     border-radius: 10px;
     transition: transform 0.3s;
 }
@@ -93,5 +93,5 @@ body {
 }
 
 #card-content {
-    font-size: 18px;
+    font-size: 20px;
 }
