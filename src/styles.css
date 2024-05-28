@@ -5,7 +5,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #001324;
-    background-image: url(/assets/images/background.png);
+    background-image: url(./assets/images/background.png);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
