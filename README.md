@@ -36,7 +36,7 @@ Este projeto tem como objetivo educar os usuários sobre boas práticas de ciber
 2. **Navegue até o diretório do projeto:**
 
    ```bash
-   cd projeto-cybertips\src
+   cd projeto-cybertips/src
    ```
 
 3. **Abra o arquivo `index.html` em seu navegador:**
