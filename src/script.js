@@ -1,7 +1,7 @@
 function openCard(audioElementId, newSource, templateName) {
     const card = document.getElementById('card');
     const cardContent = document.getElementById('card-content');
-    cardContent.textContent = templateName;
+    cardContent.innerHTML = templateName;
     card.style.display = 'block';
     let audioElement = document.getElementById(audioElementId);
     if (audioElement) {
@@ -19,3 +19,8 @@ function closeCard(audioElementId) {
     const card = document.getElementById('card');
     card.style.display = 'none';
 }
+
+document.getElementById('ok-button').addEventListener('click', function () {
+    document.getElementById('popup').style.display = 'none';
+    document.getElementById('blur-background').style.display = 'none';
+});
