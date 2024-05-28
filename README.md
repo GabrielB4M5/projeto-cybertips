@@ -45,7 +45,7 @@ Este projeto tem como objetivo educar os usuários sobre boas práticas de ciber
 
 ---
 
-Esperamos que você ache útil e aprenda bastante com estas dicas de cibersegurança! Fique seguro online!
+Espero que você ache útil e aprenda bastante com estas dicas de cibersegurança!
 
 ---
 
@@ -53,4 +53,4 @@ Caso tenha alguma dúvida ou problema, sinta-se à vontade para abrir uma [issue
 
 ---
 
-Fique seguro! 🌐🛡️
+🌐🛡️Fique seguro!🛡️🌐
