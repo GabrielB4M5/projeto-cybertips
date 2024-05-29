@@ -128,3 +128,38 @@ body {
     margin-top: 10px;
     cursor: pointer;
 }
+
+@media (max-width: 500px) {
+    .template img {
+        height: 90.5px;
+        width: 90.5px;
+    }
+}
+
+@media (max-width: 450px) {
+    .template img {
+        height: 80.5px;
+        width: 80.5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .template img {
+        height: 70.5px;
+        width: 70.5px;
+    }
+}
+
+@media (max-width: 350px) {
+    .template img {
+        height: 60.5px;
+        width: 60.5px;
+    }
+}
+
+@media (max-width: 300px) {
+    .template img {
+        height: 50.5px;
+        width: 50.5px;
+    }
+}
